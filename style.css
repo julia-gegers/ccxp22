@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #FFD900;
+    padding: 10px;
+
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 200px;
+}
+
+.title{
+    color: #FFD900;
+    font-size: 55px;
+    margin-top: -20px;
+}
+
+.subtitle{
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+}
+
+.text{
+    margin-top: 70px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.bloco{
+    align-items: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 430px;
+    background: #514988;
+}
+
+.countdown{
+    color: #514988;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 130px;
+    left: 700px;   
+    font-size: 35px; 
+    gap: 30px;
+}
+
+.timer{
+    margin-top: -15px;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.arlequina{
+   
+    position: absolute;
+    width:700px;
+    height: 420px;
+    top: 45px;
+    right: -160px;
+}
+
+.text1{
+    white-space: nowrap;
+    font-size: 20px;
+    margin-top: 40px;
+    position: absolute;
+    color: #E33881;
+}
+
+.card{
+    margin-bottom: 15px;
+    margin-left:30px;
+    margin-top: 15px;
+    width: 150px;
+}
+
+.text2{
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: #FFD900;
+}
+
+.btn{
+    position: absolute;
+    bottom: -30px;
+    right: 180px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30PX;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    background-color: #514988;
+    width: 500px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(57, 29, 81);
+}
