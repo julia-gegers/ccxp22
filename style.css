@@ -72,8 +72,8 @@ body{
 .arlequina{
    
     position: absolute;
-    width:700px;
-    height: 420px;
+    width:730px;
+    height: 470px;
     top: 45px;
     right: -160px;
 }
@@ -117,5 +117,5 @@ body{
 }
 
 .btn:hover{
-    background-color: rgb(57, 29, 81);
+    background-color:#FFD900;
 }
